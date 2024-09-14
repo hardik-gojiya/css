@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --bottom-border-color: #fffffd33;
+  --background-color: #282828;
+  --font-color: #f1f1f1;
+  --hover-color: #393939;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: transparent;
+}
+.full-content-profile-click{
+  background-color: var(--background-color);
+  width: 300px;
+  height: inherit;
+  border-radius: 10px;
+  position: absolute;
+  top: 8px;
+  right: 85px;
+}
+.full-content-head-profile-click {
+  height: 70.8px;
+  display: flex;
+  position: relative;
+  padding: 16px;
+  background-color: var(--background-color);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid var(--bottom-border-color);
+}
+.full-content-head-profile-click img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.full-content-head-text {
+  display: grid;
+  margin-left: 15px;
+}
+
+.channel-name,
+.channel-id {
+  color: white;
+  font-size: 16px;
+}
+.view-channel a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(72, 72, 255);
+}
+
+.full-content-body-same {
+  height: inherit;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--bottom-border-color);
+}
+.div-for-flex {
+  display: flex;
+  align-items: center;
+  color: var(--font-color);
+  padding: 0 16px 0 16px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.div-for-flex p{
+  width: 204px;
+}
+.hover:hover {
+  background-color: var(--hover-color);
+  border-radius: 0;
+}
+/* .yes-next {
+  margin-left: 67px;
+} */
+.svg-div {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  fill: #f1f1f1;
+  align-items: center;
+}
+.yes-next{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  fill: #f1f1f1;
+  align-items: center;
+}
+
