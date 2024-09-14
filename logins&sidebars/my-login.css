@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background: rgb(146, 140, 255);
+    background: radial-gradient(circle, rgb(129, 124, 233) 0%, rgb(148, 148, 239) 25%, rgb(131, 229, 249) 67%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.uppbuttons{
+    margin: 50px;
+    justify-content: space-between;
+}
+.uppbuttons button{
+    border: none;
+    border-bottom: 3px solid rgb(101, 138, 106);
+    background: transparent;
+}
+.uppbuttons button:active{
+    border-bottom: 3px solid rgb(5, 255, 197);
+}
+.login-page{
+    width: 420px;
+    height: 100%;
+    padding: 30px 20px 30px 20px;
+    justify-content: center;
+    border: 2px solid rgb(101, 88, 88);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+@media(max-width:522px){
+    .login-page{
+        width: 350px;
+    }
+}
+.login-page .logo{
+    text-align: center;
+}
+.login-page .logo img{
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+}
+.input-box{
+    display: grid;
+    width: 100%;
+    position: relative;
+    margin: 10px 0;
+}
+.input-box input{
+    position: relative;
+    border-radius: 40px;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 20px 45px 20px 20px;
+    background: transparent;
+    border: 2px solid ;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: blue;
+}
+.login-page a{
+    padding: 10px;
+    text-align: end;
+    color: rgb(0, 0, 0);
+}
+.login-page button{
+    margin: 10px;
+    padding: 10px 0;
+    border-radius: 40px;
+    background: rgb(0, 225, 255);
+    color: rgb(22, 32, 41);
+}
+.login-page button:active{
+    background: rgb(1, 156, 176);
+}
